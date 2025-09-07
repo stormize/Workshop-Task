@@ -1,0 +1,190 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\ConsumerTransaction\\ConsumerTransaction\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3DC7F901-747A-4658-8F3E-1BC30687E808}|ConsumerTransaction.Server\\ConsumerTransaction.Server.csproj|d:\\consumertransaction\\consumertransaction\\consumertransaction.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3DC7F901-747A-4658-8F3E-1BC30687E808}|ConsumerTransaction.Server\\ConsumerTransaction.Server.csproj|solutionrelative:consumertransaction.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3DC7F901-747A-4658-8F3E-1BC30687E808}|ConsumerTransaction.Server\\ConsumerTransaction.Server.csproj|d:\\consumertransaction\\consumertransaction\\consumertransaction.server\\dto\\consumer\\getconsumerwithtransactionsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3DC7F901-747A-4658-8F3E-1BC30687E808}|ConsumerTransaction.Server\\ConsumerTransaction.Server.csproj|solutionrelative:consumertransaction.server\\dto\\consumer\\getconsumerwithtransactionsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3DC7F901-747A-4658-8F3E-1BC30687E808}|ConsumerTransaction.Server\\ConsumerTransaction.Server.csproj|d:\\consumertransaction\\consumertransaction\\consumertransaction.server\\dto\\transaction\\getalltransactionsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3DC7F901-747A-4658-8F3E-1BC30687E808}|ConsumerTransaction.Server\\ConsumerTransaction.Server.csproj|solutionrelative:consumertransaction.server\\dto\\transaction\\getalltransactionsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3DC7F901-747A-4658-8F3E-1BC30687E808}|ConsumerTransaction.Server\\ConsumerTransaction.Server.csproj|d:\\consumertransaction\\consumertransaction\\consumertransaction.server\\dto\\transaction\\addtransactiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3DC7F901-747A-4658-8F3E-1BC30687E808}|ConsumerTransaction.Server\\ConsumerTransaction.Server.csproj|solutionrelative:consumertransaction.server\\dto\\transaction\\addtransactiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3DC7F901-747A-4658-8F3E-1BC30687E808}|ConsumerTransaction.Server\\ConsumerTransaction.Server.csproj|d:\\consumertransaction\\consumertransaction\\consumertransaction.server\\dto\\consumer\\getallconsumersdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3DC7F901-747A-4658-8F3E-1BC30687E808}|ConsumerTransaction.Server\\ConsumerTransaction.Server.csproj|solutionrelative:consumertransaction.server\\dto\\consumer\\getallconsumersdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3DC7F901-747A-4658-8F3E-1BC30687E808}|ConsumerTransaction.Server\\ConsumerTransaction.Server.csproj|d:\\consumertransaction\\consumertransaction\\consumertransaction.server\\dto\\consumer\\addconsumerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3DC7F901-747A-4658-8F3E-1BC30687E808}|ConsumerTransaction.Server\\ConsumerTransaction.Server.csproj|solutionrelative:consumertransaction.server\\dto\\consumer\\addconsumerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3DC7F901-747A-4658-8F3E-1BC30687E808}|ConsumerTransaction.Server\\ConsumerTransaction.Server.csproj|d:\\consumertransaction\\consumertransaction\\consumertransaction.server\\domain\\consumer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3DC7F901-747A-4658-8F3E-1BC30687E808}|ConsumerTransaction.Server\\ConsumerTransaction.Server.csproj|solutionrelative:consumertransaction.server\\domain\\consumer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3DC7F901-747A-4658-8F3E-1BC30687E808}|ConsumerTransaction.Server\\ConsumerTransaction.Server.csproj|d:\\consumertransaction\\consumertransaction\\consumertransaction.server\\consumertransaction.server.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{3DC7F901-747A-4658-8F3E-1BC30687E808}|ConsumerTransaction.Server\\ConsumerTransaction.Server.csproj|solutionrelative:consumertransaction.server\\consumertransaction.server.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3DC7F901-747A-4658-8F3E-1BC30687E808}|ConsumerTransaction.Server\\ConsumerTransaction.Server.csproj|d:\\consumertransaction\\consumertransaction\\consumertransaction.server\\domain\\consumertransactiondbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3DC7F901-747A-4658-8F3E-1BC30687E808}|ConsumerTransaction.Server\\ConsumerTransaction.Server.csproj|solutionrelative:consumertransaction.server\\domain\\consumertransactiondbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3DC7F901-747A-4658-8F3E-1BC30687E808}|ConsumerTransaction.Server\\ConsumerTransaction.Server.csproj|d:\\consumertransaction\\consumertransaction\\consumertransaction.server\\domain\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3DC7F901-747A-4658-8F3E-1BC30687E808}|ConsumerTransaction.Server\\ConsumerTransaction.Server.csproj|solutionrelative:consumertransaction.server\\domain\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GetAllTransactionsDto.cs",
+              "DocumentMoniker": "D:\\ConsumerTransaction\\ConsumerTransaction\\ConsumerTransaction.Server\\Dto\\Transaction\\GetAllTransactionsDto.cs",
+              "RelativeDocumentMoniker": "ConsumerTransaction.Server\\Dto\\Transaction\\GetAllTransactionsDto.cs",
+              "ToolTip": "D:\\ConsumerTransaction\\ConsumerTransaction\\ConsumerTransaction.Server\\Dto\\Transaction\\GetAllTransactionsDto.cs",
+              "RelativeToolTip": "ConsumerTransaction.Server\\Dto\\Transaction\\GetAllTransactionsDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-06T18:04:26.736Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GetConsumerWithTransactionsDto.cs",
+              "DocumentMoniker": "D:\\ConsumerTransaction\\ConsumerTransaction\\ConsumerTransaction.Server\\Dto\\Consumer\\GetConsumerWithTransactionsDto.cs",
+              "RelativeDocumentMoniker": "ConsumerTransaction.Server\\Dto\\Consumer\\GetConsumerWithTransactionsDto.cs",
+              "ToolTip": "D:\\ConsumerTransaction\\ConsumerTransaction\\ConsumerTransaction.Server\\Dto\\Consumer\\GetConsumerWithTransactionsDto.cs",
+              "RelativeToolTip": "ConsumerTransaction.Server\\Dto\\Consumer\\GetConsumerWithTransactionsDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-06T18:00:46.269Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AddTransactionDto.cs",
+              "DocumentMoniker": "D:\\ConsumerTransaction\\ConsumerTransaction\\ConsumerTransaction.Server\\Dto\\Transaction\\AddTransactionDto.cs",
+              "RelativeDocumentMoniker": "ConsumerTransaction.Server\\Dto\\Transaction\\AddTransactionDto.cs",
+              "ToolTip": "D:\\ConsumerTransaction\\ConsumerTransaction\\ConsumerTransaction.Server\\Dto\\Transaction\\AddTransactionDto.cs",
+              "RelativeToolTip": "ConsumerTransaction.Server\\Dto\\Transaction\\AddTransactionDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-06T18:00:13.683Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AddConsumerDto.cs",
+              "DocumentMoniker": "D:\\ConsumerTransaction\\ConsumerTransaction\\ConsumerTransaction.Server\\Dto\\Consumer\\AddConsumerDto.cs",
+              "RelativeDocumentMoniker": "ConsumerTransaction.Server\\Dto\\Consumer\\AddConsumerDto.cs",
+              "ToolTip": "D:\\ConsumerTransaction\\ConsumerTransaction\\ConsumerTransaction.Server\\Dto\\Consumer\\AddConsumerDto.cs",
+              "RelativeToolTip": "ConsumerTransaction.Server\\Dto\\Consumer\\AddConsumerDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAQAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-06T17:59:52.98Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GetAllConsumersDto.cs",
+              "DocumentMoniker": "D:\\ConsumerTransaction\\ConsumerTransaction\\ConsumerTransaction.Server\\Dto\\Consumer\\GetAllConsumersDto.cs",
+              "RelativeDocumentMoniker": "ConsumerTransaction.Server\\Dto\\Consumer\\GetAllConsumersDto.cs",
+              "ToolTip": "D:\\ConsumerTransaction\\ConsumerTransaction\\ConsumerTransaction.Server\\Dto\\Consumer\\GetAllConsumersDto.cs",
+              "RelativeToolTip": "ConsumerTransaction.Server\\Dto\\Consumer\\GetAllConsumersDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-06T17:59:24.664Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ConsumerTransaction.Server.http",
+              "DocumentMoniker": "D:\\ConsumerTransaction\\ConsumerTransaction\\ConsumerTransaction.Server\\ConsumerTransaction.Server.http",
+              "RelativeDocumentMoniker": "ConsumerTransaction.Server\\ConsumerTransaction.Server.http",
+              "ToolTip": "D:\\ConsumerTransaction\\ConsumerTransaction\\ConsumerTransaction.Server\\ConsumerTransaction.Server.http",
+              "RelativeToolTip": "ConsumerTransaction.Server\\ConsumerTransaction.Server.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2025-09-06T17:56:40.055Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\ConsumerTransaction\\ConsumerTransaction\\ConsumerTransaction.Server\\Program.cs",
+              "RelativeDocumentMoniker": "ConsumerTransaction.Server\\Program.cs",
+              "ToolTip": "D:\\ConsumerTransaction\\ConsumerTransaction\\ConsumerTransaction.Server\\Program.cs",
+              "RelativeToolTip": "ConsumerTransaction.Server\\Program.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACMAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-06T17:55:10.682Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Consumer.cs",
+              "DocumentMoniker": "D:\\ConsumerTransaction\\ConsumerTransaction\\ConsumerTransaction.Server\\Domain\\Consumer.cs",
+              "RelativeDocumentMoniker": "ConsumerTransaction.Server\\Domain\\Consumer.cs",
+              "ToolTip": "D:\\ConsumerTransaction\\ConsumerTransaction\\ConsumerTransaction.Server\\Domain\\Consumer.cs",
+              "RelativeToolTip": "ConsumerTransaction.Server\\Domain\\Consumer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-06T17:46:13.633Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Transaction.cs",
+              "DocumentMoniker": "D:\\ConsumerTransaction\\ConsumerTransaction\\ConsumerTransaction.Server\\Domain\\Transaction.cs",
+              "RelativeDocumentMoniker": "ConsumerTransaction.Server\\Domain\\Transaction.cs",
+              "ToolTip": "D:\\ConsumerTransaction\\ConsumerTransaction\\ConsumerTransaction.Server\\Domain\\Transaction.cs",
+              "RelativeToolTip": "ConsumerTransaction.Server\\Domain\\Transaction.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-06T17:46:02.966Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ConsumerTransactionDbContext.cs",
+              "DocumentMoniker": "D:\\ConsumerTransaction\\ConsumerTransaction\\ConsumerTransaction.Server\\Domain\\ConsumerTransactionDbContext.cs",
+              "RelativeDocumentMoniker": "ConsumerTransaction.Server\\Domain\\ConsumerTransactionDbContext.cs",
+              "ToolTip": "D:\\ConsumerTransaction\\ConsumerTransaction\\ConsumerTransaction.Server\\Domain\\ConsumerTransactionDbContext.cs",
+              "RelativeToolTip": "ConsumerTransaction.Server\\Domain\\ConsumerTransactionDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-06T17:42:17.491Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "Version": 1,
+  "Hash": "h6p/waBisBpt2HO+zRYCh+thKG0EjD21KN4dfnrI3S0=",
+  "Source": "ConsumerTransaction.Server",
+  "BasePath": "_content/ConsumerTransaction.Server",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "D:\\ConsumerTransaction\\ConsumerTransaction\\consumertransaction.client\\consumertransaction.client.esproj",
+      "Version": 2,
+      "Source": "consumertransaction.client",
+      "GetPublishAssetsTargets": "GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework"
+    }
+  ],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

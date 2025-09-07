@@ -1,0 +1,10 @@
+{
+"SpaProxyServer": {
+"ServerUrl": "https://localhost:54659",
+"RedirectUrl": "",
+"LaunchCommand": "npm start",
+"WorkingDirectory": "D:\\ConsumerTransaction\\ConsumerTransaction\\ConsumerTransaction.Server\\..\\consumertransaction.client",
+"MaxTimeoutInSeconds": "120",
+"KeepRunning": "false"
+}
+}

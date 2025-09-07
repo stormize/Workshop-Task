@@ -1,0 +1,1 @@
+D:\ConsumerTransaction\ConsumerTransaction\consumertransaction.client\obj\Debug\consumertransaction.client.esproj.CoreCompileInputs.cache

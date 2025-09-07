@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35507.96 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "consumertransaction.client", "consumertransaction.client\consumertransaction.client.esproj", "{354F6236-A1C1-6D4B-C68D-335F62AC4BE4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsumerTransaction.Server", "ConsumerTransaction.Server\ConsumerTransaction.Server.csproj", "{3DC7F901-747A-4658-8F3E-1BC30687E808}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{354F6236-A1C1-6D4B-C68D-335F62AC4BE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{354F6236-A1C1-6D4B-C68D-335F62AC4BE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{354F6236-A1C1-6D4B-C68D-335F62AC4BE4}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{354F6236-A1C1-6D4B-C68D-335F62AC4BE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{354F6236-A1C1-6D4B-C68D-335F62AC4BE4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{354F6236-A1C1-6D4B-C68D-335F62AC4BE4}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{3DC7F901-747A-4658-8F3E-1BC30687E808}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DC7F901-747A-4658-8F3E-1BC30687E808}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DC7F901-747A-4658-8F3E-1BC30687E808}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DC7F901-747A-4658-8F3E-1BC30687E808}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E63CF660-C331-4B3C-8C93-E07457E1CE27}
+	EndGlobalSection
+EndGlobal

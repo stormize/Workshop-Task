@@ -57,7 +57,13 @@ app.MapPost("/consumers", async (AddConsumerDto addConsumerDto, ConsumerTransact
 
     await db.Consumers.AddAsync(consumer);
     await db.SaveChangesAsync();
-    return Results.Created($"/consumers/{consumer.Id}", consumer);
+    GetAllConsumersDto getAllConsumersDto = new GetAllConsumersDto
+    {
+        Id = consumer.Id,
+        Email = consumer.Email,
+        FullName = consumer.FullName,
+    };
+    return Results.Created($"/consumers/{getAllConsumersDto.Id}", getAllConsumersDto);
 });
 
 app.MapPost("/transactions", async (AddTransactionDto  addTransactionDto, ConsumerTransactionDbContext db) =>
@@ -75,7 +81,14 @@ app.MapPost("/transactions", async (AddTransactionDto  addTransactionDto, Consum
 
     await db.Transactions.AddAsync(transaction);
     await db.SaveChangesAsync();
-    return Results.Created($"/transactions/{transaction.Id}", transaction);
+    GetAllTransactionsDto getAllTransactionsDto = new GetAllTransactionsDto
+    {
+        Id = transaction.Id,
+        Amount = transaction.Amount,
+        ConsumerId = transaction.FkConsumerId
+    };
+
+    return Results.Created($"/transactions/{getAllTransactionsDto.Id}", getAllTransactionsDto);
 });
 
 app.MapGet("/consumers", async (ConsumerTransactionDbContext db) =>

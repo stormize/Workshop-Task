@@ -26,39 +26,58 @@ export class AppComponent implements OnInit {
     this._consumerServiceService.GeAllConsumers().subscribe(x => this.consumers = x);
   }
 
-  open(content: any, selectedConsumer: GetAllConsumersDto | null = null) {
-    if(selectedConsumer != null){
-     this._consumerServiceService.GetConsumerWithTransactions(selectedConsumer?.id).subscribe((x:GetConsumerWithTransactionsDto) => {
-       this.selectedConsumer = x;
-      },e=>alert(e.error));
-    }
+open(content: any, selectedConsumer: GetAllConsumersDto | null = null): void {
+  if (selectedConsumer) {
+    this._consumerServiceService.GetConsumerWithTransactions(selectedConsumer.id).subscribe({
+      next: (consumer: GetConsumerWithTransactionsDto) => {
+        this.selectedConsumer = consumer;
+        this.modalService.open(content); // Open modal after data loads
+      },
+      error: (error) => {
+        alert(error?.error || 'Failed to load consumer details.');
+      }
+    });
+  } else {
     this.modalService.open(content);
   }
+}
 
-  onSubmitCreateConsumer(form: NgForm) {
-    if (form.valid) {
-      let newConsumer:AddConsumerDto = {
-          fullName : form.value.fullName,
-          email : form.value.email
-      }
-      this._consumerServiceService.AddConsumer(newConsumer).subscribe((x:GetAllConsumersDto) => {
-        this.consumers.push(x);
+onSubmitCreateConsumer(form: NgForm): void {
+  if (form.valid) {
+    const newConsumer: AddConsumerDto = {
+      fullName: form.value?.fullName,
+      email: form.value?.email
+    };
+
+    this._consumerServiceService.AddConsumer(newConsumer).subscribe({
+      next: (createdConsumer: GetAllConsumersDto) => {
+        this.consumers.push(createdConsumer);
         form.resetForm();
-      },e=>alert(e.error));
-    }
-  }
-
-  onSubmitAddTransaction(form: NgForm) {
-    if (form.valid) {
-      let newTransaction:AddTransactionDto = {
-          consumerId : this.selectedConsumer?.id,
-          amount :  form.value.amount
+      },
+      error: (error) => {
+        alert(error?.error || 'Failed to create consumer.');
       }
-      this._consumerServiceService.AddConsumerTransaction(newTransaction).subscribe((x:GetAllConsumersDto) => {
-        this.consumers.push(x);
-        form.resetForm();
-
-      },e=>alert(e.error));
-    }
+    });
   }
+}
+
+onSubmitAddTransaction(form: NgForm): void {
+  if (form.valid && this.selectedConsumer?.id) {
+    const newTransaction: AddTransactionDto = {
+      consumerId: this.selectedConsumer.id,
+      amount: form.value?.amount
+    };
+
+    this._consumerServiceService.AddConsumerTransaction(newTransaction).subscribe({
+      next: () => {
+        form.resetForm();
+        // Optionally, refresh consumer or transaction list here
+      },
+      error: (error) => {
+        alert(error?.error || 'Failed to add transaction.');
+      }
+    });
+  }
+}
+
 }

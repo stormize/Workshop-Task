@@ -49,3 +49,4 @@ D:\ConsumerTransaction\ConsumerTransaction\ConsumerTransaction.Server\bin\Debug\
 D:\ConsumerTransaction\ConsumerTransaction\ConsumerTransaction.Server\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
 D:\ConsumerTransaction\ConsumerTransaction\ConsumerTransaction.Server\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
 D:\ConsumerTransaction\ConsumerTransaction\ConsumerTransaction.Server\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll
+D:\ConsumerTransaction\ConsumerTransaction\ConsumerTransaction.Server\obj\Debug\net8.0\ConsumerTransaction.Server.sourcelink.json
